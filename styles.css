@@ -10,11 +10,19 @@ body {
 .navbar {
     color: white;
     font-family: "Hanken Grotesk";
-    background-color:#11181d ;
+    background-color: #11181d;
+}
+
+.dropdown-menu {
+    background-color: #11181d;
+}
+
+.dropdown-item {
+    color: #fff;
 }
 
 .jumbotron {
-    
+
     font-family: "Hanken Grotesk";
     text-align: center;
     background-image: url("Resources\marc-olivier-jodoin-eiMzJl3xj4o-unsplash.jpg");
@@ -163,45 +171,38 @@ ol li.item3 .bg {
     background-size: cover;
 }
 
-.banner {
-    position: relative;
-    height: 800px;
-    max-width: 1300px;
-    margin: 40px auto auto auto;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.card {
+    height: 100%;
 }
 
-.top-text {
-    font-family: "Hanken Grotesk";
-    text-align: center;
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #11181d;
     color: white;
-}
-
-.box-container {
-    max-width: 1050px;
-    height: 900px;
-    margin: 15px auto auto auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.box {
-    height: 725px;
-    padding: 20px;
-    width: 525px;
-    margin-bottom: auto;
-    flex-basis: 80%;
-    box-sizing: content-box;
-    background-color: transparent;
+    padding: 30px 0;
+    font-size: 14px;
     font-family: "Hanken Grotesk";
-    text-align: center;
-    color: white;
 }
 
-.img {
-    height: 700px;
-    width: 550px;
+footer p {
+    margin: 0;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer ul li:last-child {
+    margin-right: 0;
 }
